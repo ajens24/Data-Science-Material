@@ -1,5 +1,10 @@
 # Comparing two different data sets originally stored as text files
 
+import csv
+import pandas as pd
+import matplotlib.pyplot as plt
+from datetime import datetime
+
 file_name= 'weather_practice_deathvalley_2018.txt'
 with open(file_name) as f:
     reader= csv.reader(f)
