@@ -1,6 +1,6 @@
-# Comparing two different data sets
+# Comparing two different data sets originally stored as text files
 
-file_name= 'C:\\Users\\ajens\\OneDrive\\Documents\\Personal\\weather_practice_deathvalley_2018.txt'
+file_name= 'weather_practice_deathvalley_2018.txt'
 with open(file_name) as f:
     reader= csv.reader(f)
     header_row= next(reader)
@@ -22,7 +22,7 @@ with open(file_name) as f:
             highs.append(high)
             lows.append(low)
     
-file_name= 'C:\\Users\\ajens\\OneDrive\\Documents\\Personal\\weather_practice_2018.txt'
+file_name= 'weather_practice_2018.txt'
 with open(file_name) as f:
     reader= csv.reader(f)
     header_row= next(reader)
